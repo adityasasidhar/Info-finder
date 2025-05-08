@@ -2,7 +2,6 @@ from flask import Flask, render_template, request, jsonify
 from transformers import pipeline
 import textwrap
 from webtools import create_context
-
 app = Flask(__name__)
 
 # Initialize the summarizer
